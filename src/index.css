@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+.content {
+  padding: 20px 10px 20px 320px;
+}
+
+.sidenav {
+  background: #f4f4f4;
+  border-left: 1px solid #eee;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+  overflow-x: hidden;
+  overlow-y: auto;
+  padding: 20px 10px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300px;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-box i {
+  color: #ccc;
+  position: absolute;
+  right: 6px;
+  top: 10px;
+}
+
+.search-box input {
+  padding-right: 30px;
+}
+
+.clients {
+  padding: 20px 0 0 0;
+  list-style: none;
+}
+
+.client {
+  border-bottom: 1px solid #eeeeee;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.client:hover, .client.selected {
+  background: #fff;
+}
+
+.client:first-child {
+  border-top: 1px solid #eeeeee;
+}
+
+.client h4 {
+  margin-top: 0;
+}
+
+
+
+
